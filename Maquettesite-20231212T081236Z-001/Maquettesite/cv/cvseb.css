@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Games-of-Squids";
+    src: url("./font/Game\ Of\ Squids.ttf");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: inset;
+    background-color: #364156;
+    width: auto;
+}
+
+.navbar{
+    
+        background-color: black;
+        border-bottom: red solid 2px;
+}
+
+.navbar-brand {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+.nav-link {
+    color: red !important;
+    text-shadow: 2px 2px 5px red;
+}
+
+.btn-btn-outline-success{
+    border: solid red;
+    border-radius: 10%;
+    background-color:black;
+    color: red;
+} 
+
+.btn-btn-outline-success:hover{
+    background-color: red;
+    color: black;
+}
+
+h1 {
+    color: darkslategray;
+    background-color: burlywood;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.box a,p {
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 130%;
+    color: burlywood;
+    
+}
+
+.photo{
+    margin: 10px;
+}
+img {
+    border-radius: 300px;
+    max-width: 320px;
+    max-height: 320px 
+      
+}
+
+.info {
+    background-color: burlywood;
+    border-style: inset;
+
+}
+h3{
+    color: darkslategray;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.exp{
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.hobbies {
+
+    border: inset;
+    background-color: burlywood;
+        
+}
+ol{
+    padding: 30px;
+}
+.lien a{
+    color: darkslategray;
+}
+h2{
+    color: darkslategray;
+    font-family:'Courier New', Courier, monospace;
+    padding: 25px;
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+
+      
+}
+
+table,td,th {
+    border-style: inset;
+}
+thead {
+    background-color: #fff;
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+}
+.dip{
+    display: flex;
+    justify-content: space-evenly;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+      
+}
+.useless{
+    width: 15px;
+
+}
+@media screen and (max-width:1200px)  {
+    .hobbies{width: 100%;}
+    
+}
+

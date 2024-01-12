@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Denton";
+    src: url("./font/DentonBETA2.ttf");
+}
+@font-face {
+    font-family: "Games-of-Squids";
+    src: url("./font/Game\ Of\ Squids.ttf");
+}
+header {
+        background-color: black;
+        border-bottom: red solid 2px;
+    }
+    
+    .navbar-brand {
+        color: red !important;
+        text-shadow: 2px 2px 5px red;
+    }
+    .nav-link {
+        color: red !important;
+        text-shadow: 2px 2px 5px red;
+    }
+    
+    .btn-btn-outline-success{
+        border: solid red;
+        border-radius: 10%;
+        background-color:black;
+        color: red;
+    } 
+    
+    .btn-btn-outline-success:hover{
+        background-color: red;
+        color: black;
+    }
+body{
+    display: flex;
+    background-image: url(./image/pexels-aleksandar-pasaric-1820770.jpg);
+    background-size: cover;
+}
+body > div > span{
+    display:flex;
+    justify-content: flex-end;
+}
+form{
+    display:flex;
+    border: solid black 1px;
+    flex-direction:column;
+    white-space:pre-wrap;
+    background-color: blanchedalmond;
+
+}
+#identite, #EP{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+#aaa{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    transform:translate(40%)
+}
+#aaa input{
+    flex-direction: row;
+    justify-content: center;
+}
+@media only screen and (max-width:600px){
+    #identite{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:700px){
+    #formulaire{
+        width:90%;
+        margin:auto;
+    }
+}
+@media only screen and (min-width:700px){
+    #formulaire{
+        width:60%;
+        margin:auto;
+    }
+}
+
+#formulaire{
+    justify-content: center;
+}
+textarea{
+   resize:none;
+    height:200%;
+    width:80%;
+}
+#area{
+    display: flex;
+    justify-content: center;
+}
+form>header{
+    display:flex;
+    justify-content: center;
+    font-size: x-large;
+}
+#hob{
+    color:white;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+
+
+}
+#hf{
+    align-items: flex-end;
+}
+body{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+#pp{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+#note{
+    display: flex;
+    justify-content: space-evenly;
+}
+.creature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
